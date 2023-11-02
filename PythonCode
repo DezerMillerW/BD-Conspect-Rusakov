@@ -1,0 +1,83 @@
+##Задание 1
+s = 0
+k = 15
+d = k - 10
+k = 4 * d
+s = k - 50
+print("Ответ: ",s)
+
+Задание 2
+x = 3
+y = 4
+z = x + y
+z = z + 1
+x = y
+y = 5
+x = z + y + 7
+print("Ответ: ", x)
+
+Задание 3
+c = int(input("Введите число: "))
+i = 0
+while i != 3:
+    print(c)
+    c = c + 1
+    i += 1
+
+Задание 4
+a = int(input())
+b = int(input())
+c = int(input())
+v = a + b + c
+print(v)
+
+Задание 5
+a = int(input())
+s = a*a
+s = s*6
+print(s)
+
+Задание 6
+a = int(input())
+b = int(input())
+c = a + b
+c = c * c * c
+c = c * 3
+v = b * b
+v = v*275
+e = a * 127
+g = c + v - e - 41
+print(g)
+
+Задание 7
+a = int(input())
+b = a-1
+c = a+1
+print("следующее ", c)
+print("настоящее ", a)
+print("предыдущее ", b)
+
+Задание 8
+a = int(input())
+b = int(input())
+c = int(input())
+s = int(input())
+v = a + b + c + s
+print(v)
+
+Задание 9
+a = int(input())
+b = int(input())
+c = a + b
+v = a - b
+g = a * b
+print(a,"+",b,"=",c)
+print(a,"-",b,"=",v)
+print(a,"*",b,"=",g)
+
+Задание 10
+a = int(input("Введите начало прогрессии: "))
+b = int(input("Введите разницу прогрессии: "))
+c = int(input("Введите послдений черед прогрессии: "))
+v = a + (b*(c-1))
+print(v)
