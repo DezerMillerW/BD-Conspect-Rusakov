@@ -1,4 +1,4 @@
-##Задание 1
+Задание 1
 s = 0
 k = 15
 d = k - 10
@@ -141,3 +141,142 @@ print(c+b+v)
 print(c+v+b)
 print(v+b+c)
 print(v+c+b)
+
+Задание 20
+a=int(input("Введите четырехзначное число:"))
+b = a//1000
+c = (a-1000*b)//100
+v = ((a-1000*b)-c*100)//10
+n = (((a-1000*b)-c*100))-v*10
+print("Тысяч:",b,"Сотен:",c,"Десятков:",v,"Единиц:",n, sep="\n")
+
+Задание 21
+a = input('Введите пароль ')
+b = input('Повторите пароль ')
+if a == b:
+    print('Верно')
+else:
+    print('Пароли не совпадают')
+
+Задание 22
+a = int(input())
+if a%2==0:
+    print("чет")
+else:
+    print("нечет")
+
+Задание 23
+a = list(input())
+if int(a[0])+int(a[3]) == int(a[1])-int(a[2]):
+    print("True")
+else:
+    print("False")
+
+Задание 24
+a = int(input("Ваш возраст: "))
+if a <18:
+    print('Доступ закрыт')
+else:
+    print("Доступ открыт")
+
+Задание 25
+a = int(input())
+b = int(input())
+c = int(input())
+if c-b==a:
+    print("True")
+else:
+    print("False")
+
+Задание 26
+a = int(input())
+b = int(input())
+if a < b:
+    print(a)
+else:
+    print(b)
+
+Задание 27
+a = int(input())
+b = int(input())
+c = int(input())
+v = int(input())
+if a<b:
+     b = a
+else:
+    a = b
+if c < v:
+    v=c
+else:
+    c=v
+if a<c:
+   print(a)
+else:
+   print(c)
+
+
+Задание 28
+a = int(input())
+if a<=13:
+    print('Детсво')
+elif 14<=a<=24:
+    print("Молодость")
+elif 25<=a<=59:
+    print("Зрелость")
+elif a>=60:
+    print("Старость")
+
+Задание 29
+a = int(input())
+b = int(input())
+c = int(input())
+if a <0:
+    a = 0
+if b <0:
+    b = 0
+if c <0:
+    c = 0
+print(a+b+c)
+
+Задание 30
+a = int(input())
+if a%7==0 or a%17==0:
+    print("YES")
+else:
+    print('NO')
+
+Задание 31
+a = int(input())
+b = int(input())
+c = int(input())
+if a+b>c and a+c>b and b+c>a:
+    print('YES')
+else:
+    print('NO')
+
+Задание 32
+a = int(input())
+if a%4==0 and a%100!=0:
+    print('yes')
+else:
+    print('no')
+
+Задание 33
+a = int(input('1'))
+b = int(input('2'))
+c = int(input('11'))
+v = int(input('12'))
+if a == c or b == v:
+    print('YES')
+else:
+    print('NO')
+
+Задание 34
+a = int(input('1 '))
+b = int(input('2 '))
+c = int(input('11 '))
+v = int(input('12 '))
+if (a==c or a+1==c or a-1==c) and (b==v or b-1==v or b+1==v):
+    print('YES')
+else:
+    print('NO')
