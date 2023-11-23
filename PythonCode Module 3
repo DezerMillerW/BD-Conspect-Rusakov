@@ -219,6 +219,16 @@ a = float(input())
 a = abs(a)
 print(a+a)
 
+25(другое решение. В первом перепутал знак со знаком модуля в условии)
+a = float(input())
+b = 0
+if a%1!=0:
+    b = a//1
+    a = a//1+1
+else:
+    b = a
+print(a+b)
+
 26.
 a = float(input())
 b = float(input())
