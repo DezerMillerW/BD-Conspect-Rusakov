@@ -12,7 +12,7 @@ v = c/v
 print(v)
 
 3.
-a = int(input())
+a = float(input())
 print(1/a)
 
 4.
